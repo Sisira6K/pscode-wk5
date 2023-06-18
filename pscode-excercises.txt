@@ -49,7 +49,7 @@ SET min to n3
 IF(n4 < min)
 SET min to n4
 IF(n5 < min)
-SET min to n5
+SET min to n5`
 WRITE "The minimum value is "
 WRITE min
 
@@ -66,10 +66,10 @@ IF  (n5>max)
 SET max to n5
 WRITE "The Maximum is"
 WRITE max
+END
 
 
 
-re
 
 
 -- END --
